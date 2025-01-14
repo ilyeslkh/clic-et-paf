@@ -1,0 +1,11 @@
+# Indiquer les pages que les robots peuvent explorer
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Allow: /tendances/
+Allow: /astuces/
+Allow: /contact/
+
+# Sitemap location
+Sitemap: https://www.clicetpaf.com/sitemap.xml

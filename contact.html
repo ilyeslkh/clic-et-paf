@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contactez-nous pour toute question ou demande d'informations sur notre site et nos services SEO."
+    />
+    <meta
+      name="keywords"
+      content="contact SEO, questions SEO, assistance SEO, clicetpaf contact"
+    />
+    <title>Contact - Clicetpaf</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Accueil</a></li>
+          <li><a href="/tendances">Tendances SEO</a></li>
+          <li><a href="/astuces">Astuces SEO</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/mentions-legales">Mentions légales</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Clicetpaf",
+        "url": "https://www.clicetpaf.com",
+        "logo": "https://www.clicetpaf.com/logo.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+33-1-23456789",
+          "contactType": "Customer Service",
+          "areaServed": "FR",
+          "availableLanguage": "Français"
+        },
+        "sameAs": [
+          "https://www.facebook.com/clicetpaf",
+          "https://www.twitter.com/clicetpaf"
+        ]
+      }
+    </script>
+
+    <main>
+      <section class="hero">
+        <h1>Contactez-nous</h1>
+        <p>
+          Vous avez des questions ? Nous sommes là pour vous aider !
+          Envoyez-nous un message et nous vous répondrons dans les plus brefs
+          délais.
+        </p>
+      </section>
+
+      <section class="contact-form">
+        <h2>Formulaire de Contact</h2>
+        <form action="/submit-form" method="POST">
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="btn">Envoyer</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Clicetpaf - Tous droits réservés.</p>
+      <p>
+        <a href="/contact">Contactez-nous</a> |
+        <a href="/mentions-legales">Mentions légales</a>
+      </p>
+    </footer>
+  </body>
+</html>
