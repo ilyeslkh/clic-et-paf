@@ -3,9 +3,7 @@ User-agent: *
 Disallow: /admin/
 Disallow: /login/
 Disallow: /private/
+
+# Autoriser certaines pages importantes pour le SEO
 Allow: /tendances/
 Allow: /astuces/
-Allow: /contact/
-
-# Sitemap location
-Sitemap: https://www.clicetpaf.com/sitemap.xml
